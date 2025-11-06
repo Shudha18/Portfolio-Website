@@ -29,7 +29,7 @@ body{
 }
 .nav a{
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 .corner{
     width: 10rem;
@@ -116,7 +116,7 @@ h2{
 }
 .righthead img{
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .section{
@@ -385,4 +385,9 @@ li:hover{
 }
 .nav a:hover{
     color: violet;
+}
+
+.lefthead button a{
+    text-decoration: none;
+    color: black;
 }
