@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="nav" id="home">
+        <div class="corner left">
+            <i class="fa-solid fa-shapes"></i>
+        </div>
+        <div class="centernav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#accomp">Accomplishments</a></li>
+                <!-- <li><a href="#edu">Education</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="corner right">
+            <button onclick="window.open('assets/resume.pdf', '_blank')">Resume <i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="header">
+        <div class="head lefthead">
+            <h1>Hi, I'm Shudhanshu Kumar</h1>
+            <h2>Aspiring Software Developer</h2>
+            <pre>I am passionate about building scalable web applications 
+and continuously improving my coding skills 
+through real-world projects and learning.</pre>
+            <button>Contact me <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="head righthead">
+            <!-- <img src="./assets/me-Photoroom.png" alt=""> -->
+        </div>
+    </div>
+    <div class="section about" id="about">
+        <h1>About</h1>
+        <pre>I’m an aspiring Full Stack Developer passionate about building impactful digital solutions that make life easier and smarter. 
+With hands-on experience in MERN stack, PHP, MySQL, HTML, CSS, and JavaScript, I enjoy turning ideas into scalable, user-friendly 
+web applications.
+
+Currently, I’m exploring opportunities to contribute as a full-stack developer where I can apply my skills, build innovative solutions, 
+and grow with a passionate tech-driven team.</pre>
+    </div>
+    <div class="section skills">
+        <h1>My Skills</h1>
+        <div class="tech">
+            <div class="skill cpp"><i class="fa-solid fa-c"></i>++</div>
+            <div class="skill python"><i class="fa-brands fa-python"></i></div>
+            <div class="skill js"><i class="fa-brands fa-js"></i></div>
+            <div class="skill react"><i class="fa-brands fa-react"></i></div>
+            <div class="skill nodejs"><i class="fa-brands fa-node-js"></i></div>
+            <div class="skill mysql"><i class="fa-solid fa-database"></i></div>
+            <div class="skill html"><i class="fa-brands fa-html5"></i></div>
+            <div class="skill css"><i class="fa-brands fa-css3-alt"></i></div>
+            <div class="skill php"><i class="fa-brands fa-php"></i></div>
+            <div class="skill github"><i class="fa-brands fa-github"></i></div>
+            <div class="skill bootstrap"><i class="fa-brands fa-bootstrap"></i></div>
+        </div>
+    </div>
+    <div class="section projects" id="project">
+        <h1>Projects</h1>
+        <div class="prj prj1">
+            <img src="./assets/farm-to-market.png" alt="farm-to-market system">
+            <div class="desc">
+                <h2>Farm-to-Market Connect App</h2>
+                <p>A web-based platform to connect farmers directly with consumers and local markets, reducing middlemen and increasing farmer profits. Implemented features for product listing, price management, and order placement by buyers with user-friendly dashboards.</p>
+                <div class="skillreq">
+                    <button class="sk">HTML</button>
+                    <button class="sk">CSS</button>
+                    <button class="sk">JavaScript</button>
+                    <button class="sk">PHP</button>
+                    <button class="sk">MySQL</button>
+                </div>
+                <div class="prjlink">
+                    <i class="fa-brands fa-github" onclick="window.location.href='https://github.com/Shudha18/Farm-to-Market-Connect-App';"></i>
+                </div>
+            </div>
+        </div>
+        <div class="prj prj2">
+            <div class="desc">
+                <h2>Fake News Authenticator</h2>
+                <p>Developed a web-based Fake News Authentication System using Google Gemini API to classify news as fake or real. Extended the solution with a browser extension for real-time news verification. Collaborated in a team of 5 members, achieving 3rd place among 600+ participants.</p>
+                <div class="skillreq">
+                    <button class="sk">React</button>
+                    <button class="sk">Node.js</button>
+                    <!-- <button class="sk">TypeScript</button> -->
+                    <button class="sk">Tailwind</button>
+                    <button class="sk">APIs</button>
+                    <button class="sk">MongoDB</button>
+                </div>
+                <div class="prjlink">
+                    <i class="fa-brands fa-github" onclick="window.location.href='https://github.com/Shudha18/fakenews';"></i>
+                </div>
+            </div>
+            <img src="./assets/fake-news.png" alt="fake-news-auth">
+        </div>
+        <div class="prj prj3">
+            <img src="./assets/hostel_management.png" alt="hostel-management-system">
+            <div class="desc">
+                <h2>Hostel Management System</h2>
+                <p>Developed a web-based system to manage hostel operations, including student registrations, room allocations, and payment tracking. Implemented role-based access for admins and users to ensure secure and efficient workflows with a responsive UI.</p>
+                <div class="skillreq">
+                    <button class="sk">HTML</button>
+                    <button class="sk">CSS</button>
+                    <button class="sk">JavaScript</button>
+                    <button class="sk">PHP</button>
+                    <button class="sk">MySQL</button>
+                </div>
+                <div class="prjlink">
+                    <i class="fa-brands fa-github" onclick="window.location.href='https://example.com';"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="section accomp" id="accomp">
+        <h1>Accomplishments</h1>
+        <h2 class="heading">Education</h2>
+        <i class="fa-solid fa-circle-dot"></i>
+        <div class="edu edu1">
+            <h2>Master of Computer Applications</h2>
+            <h3>Lovely Professional University</h3>
+            <p>Aug 2025 - Present</p>
+            <!-- <p> - CGPA N/A</p> -->
+        </div>
+        <i class="fa-solid fa-circle-dot"></i>
+        <div class="edu edu2">
+            <h2>Bachelor of Computer Applications</h2>
+            <h3>Lovely Professional University</h3>
+            <p>Sep 2022 - July 2025</p>
+            <p> - CGPA 82%</p>
+        </div>
+        <i class="fa-solid fa-circle-dot"></i>
+        <div class="edu edu3">
+            <h2>Intermediate</h2>
+            <h3>Saraswati Vidhya Mandir</h3>
+            <p>Apr 2020 - Feb 2022</p>
+            <p> - Grade 60%</p>
+        </div>
+        <h2 class="heading">Awards and Participations</h2>
+        <div class="part part1" onclick="window.location.href='https://credsverse.com/credentials/b55d2c95-fbaa-417b-8eb4-905c19a0e4d3';">
+            <div class="img">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="disc">
+                <h3>TechBlitz Hackathon - 2nd Runner up</h3>
+                <p>Coding Ninjas LPU</p>
+                <p>Oct 2025</p>
+            </div>
+        </div>
+        <div class="part part2" onclick="window.location.href='https://example.com';">
+            <div class="img">
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="disc" >
+                <h3>CodeClash - Winner</h3>
+                <p>IEEE Student Club</p>
+                <p>Oct 2025</p>
+            </div>
+        </div>
+        <div class="part part3" onclick="window.location.href='https://example.com';">
+            <div class="img">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="disc">
+                <h3>Hack-IoT Hackathon</h3>
+                <p>School of Electrical Engineering</p>
+                <p>Oct 2023</p>
+            </div>
+            
+        </div>
+        <div class="part part4" onclick="window.location.href='https://certificate.givemycertificate.com/c/f1af2a7f-75f3-40d4-9d45-a3a5db676e7b';">
+            <div class="img">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="disc">
+                <h3>Web-A-Thon AI Hackathon</h3>
+                <p>DSO</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="part part5" onclick="window.location.href='https://example.com';">
+            <div class="img">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="disc">
+                <h3>HackManthan</h3>
+                <p>School of Computer Science Engineering</p>
+                <p>Oct 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="section contact" id="contact">
+        <h1>Get In Touch</h1>
+        <pre>I'm currently open to new opportunities and collaborations. Whether you have 
+a question or just want to say hi, feel free to reach out. My inbox is always open!</pre>
+        <h3><i class="fa-solid fa-paper-plane"></i> kr.shudhanshu14187@gmail.com</h3>
+        <div class="buttons">
+        <button class="social github" onclick="window.location.href='https://github.com/Shudha18';"><i class="fa-brands fa-square-github"></i></button>
+        <button class="social linkedin" onclick="window.location.href='https://www.linkedin.com/in/shudhanshu08/';"><i class="fa-brands fa-linkedin"></i></button>
+        </div>
+    </div>
+    <div class="footer">
+        Shudhanshu Kumar 2025
+    </div>
+</body>
+</html>
